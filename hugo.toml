@@ -1,0 +1,5 @@
+
+baseURL = 'https://plrefjp.github.io/quickstart/'
+languageCode = 'ja'
+title = 'My New Hugo Site'
+theme = 'ananke'
