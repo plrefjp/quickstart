@@ -1,5 +1,24 @@
-
-baseURL = 'https://plrefjp.github.io/quickstart/'
-languageCode = 'ja'
+baseURL = 'https://example.org/'
+languageCode = 'ja-jp'
 title = 'My New Hugo Site'
-theme = 'ananke'
+theme = 'mytheme'
+
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
+
+[[menus.main]]
+name = 'Posts'
+pageRef = '/posts'
+weight = 20
+
+[[menus.main]]
+name = 'Tags'
+pageRef = '/tags'
+weight = 30
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"
