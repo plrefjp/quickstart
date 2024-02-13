@@ -1,33 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>none on My New Hugo Site</title>
+    <title>Home on My New Hugo Site</title>
     <link>https://example.org/</link>
-    <description>Recent content in none on My New Hugo Site</description>
+    <description>Recent content in Home on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 14 Feb 2024 01:28:16 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 14 Feb 2024 01:14:39 +0900</lastBuildDate>
     <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>TITLE</title>
-      <link>https://example.org/hello2/</link>
-      <pubDate>Wed, 14 Feb 2024 01:28:16 +0900</pubDate>
-      <guid>https://example.org/hello2/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Test article</title>
       <link>https://example.org/hello/</link>
       <pubDate>Wed, 14 Feb 2024 01:14:39 +0900</pubDate>
       <guid>https://example.org/hello/</guid>
       <description>content here</description>
-    </item>
-    <item>
-      <title>My First Post</title>
-      <link>https://example.org/post/my-first-post/</link>
-      <pubDate>Wed, 14 Feb 2024 00:35:49 +0900</pubDate>
-      <guid>https://example.org/post/my-first-post/</guid>
-      <description>Introduction This is bold text, and this is emphasized text.&#xA;Visit the Hugo website!</description>
     </item>
     <item>
       <title>Post 3</title>
@@ -49,6 +35,13 @@
       <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
       <guid>https://example.org/posts/post-1/</guid>
       <description>Tempor proident minim aliquip reprehenderit dolor et ad anim Lorem duis sint eiusmod. Labore ut ea duis dolor. Incididunt consectetur proident qui occaecat incididunt do nisi Lorem. Tempor do laborum elit laboris excepteur eiusmod do. Eiusmod nisi excepteur ut amet pariatur adipisicing Lorem.&#xA;Occaecat nulla excepteur dolore excepteur duis eiusmod ullamco officia anim in voluptate ea occaecat officia. Cillum sint esse velit ea officia minim fugiat. Elit ea esse id aliquip pariatur cupidatat id duis minim incididunt ea ea.</description>
+    </item>
+    <item>
+      <title>字句構造(Lexical structure)</title>
+      <link>https://example.org/lexical_structure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/lexical_structure/</guid>
+      <description>&amp;copy;は未実装の機能&#xA;重要語( Keywords ) 既定語( Preset ) 組み込み型(int, char&amp;copy;, float&amp;copy;, double&amp;copy;, bool&amp;copy;) 制御構文(if, else, while, for, break&amp;copy;, continue&amp;copy;) return 予約語( Reserved ) なし 構文記号( Punctuation ) 記号( Symbol ) 名称( Name ) 用途( Usage ) + Plus 加算(Addition) - Minus 減算(Subtraction) * Asterisk 乗算(Multiplication), 参照(Dereference), ポインタ(Pointers) / Slash 除算(Division) == EqualEqual 等しい(Equal) != NotEqual 等しくない(Not Equal) &amp;lt;= Less Than Or Equal To 以下(Less than or equal to) &amp;gt;= Greater Than Or Equal To 以上(Greater than or equal to) &amp;lt; Less Than より小さい(Less than) &amp;gt; Greater Than より大きい(Greater than) = Equal 代入(Assignment) ; Semicolon 文の終端(Terminator for statements) &amp;amp; Ampersand 参照(Reference) () 丸括弧(Parentheses) 関数(Function) {} 波括弧(Curly braces) Block 直値( Literals ) 整数(integer), 配列(array)&amp;copy;, 文字(character)&amp;copy;, 文字列(string)&amp;copy;, 浮動点小数(float)&amp;copy;, 論理値(logical)&amp;copy;</description>
     </item>
   </channel>
 </rss>

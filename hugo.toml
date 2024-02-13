@@ -22,3 +22,6 @@ weight = 30
   [module.hugoVersion]
     extended = false
     min = "0.116.0"
+
+[params]
+custom_css = ["css/hamburger-menu.css", "css/lexical_structure.css"]

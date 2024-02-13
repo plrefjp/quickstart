@@ -1,0 +1,44 @@
+:root {
+  --text-color: #bbbbbb;
+}
+
+h1 {
+  --border-color: #42790e;
+  font-size: 2em;
+  border-left: 7px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  padding-top: 3px;
+  padding-left: 5px;
+  padding-bottom: 3px;
+  color: var(--text-color);
+}
+
+ruby {
+  ruby-position: under
+}
+
+body {
+  font-size: 1em;
+  color: var(--text-color);
+}
+
+.table-wrap {
+  overflow-x: scroll;
+}
+
+.table {
+  width: 100%;
+  max-width: 768px;
+  border-collapse: collapse;
+}
+
+.table th,
+td {
+  border: 1px solid #bbbbbb;
+  padding: 4px 8px;
+}
+
+
+span {
+  display: inline-block;
+}
