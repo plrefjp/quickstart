@@ -1,7 +1,6 @@
 baseURL = 'https://example.org/'
-languageCode = 'ja-jp'
+languageCode = 'en-us'
 title = 'My New Hugo Site'
-theme = 'mytheme'
 
 [[menus.main]]
 name = 'Home'
@@ -9,8 +8,8 @@ pageRef = '/'
 weight = 10
 
 [[menus.main]]
-name = 'Lexical Structure'
-pageRef = '/lexical_structure'
+name = 'Posts'
+pageRef = '/posts'
 weight = 20
 
 [[menus.main]]
