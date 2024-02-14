@@ -2,7 +2,7 @@
 title = "Outputs"
 date = 2024-02-14T01:14:39+09:00
 draft = false
-tag = ['programming']
+tags = ['programming']
 +++
 
 ```console
@@ -69,6 +69,7 @@ object Hello {
     println("hello, world")
   }
 }
+```
 
 ```kt:hello.kt
 fun main() {
