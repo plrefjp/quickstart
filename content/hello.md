@@ -77,6 +77,11 @@ fun main() {
 main = putStrLn "Hello, World!"
 ```
 
+```shell {name="hello.sh"}
+#!/bin/sh
+echo "Hello, World!"
+```
+
 ```swift {name="hello.swift"}
 print("Hello, World!")
 ```
