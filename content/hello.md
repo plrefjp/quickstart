@@ -16,7 +16,7 @@ int main(int argc, char** argv){
 }
 ```
 
-```cpp {name="hello.cpp"}
+```c++ {name="hello.cpp"}
 #include <iostream>
 int main() {
   std::cout << "hello, world" << std::endl;
@@ -37,7 +37,7 @@ func main() {
 }
 ```
 
-```rs {name="hello.rs"}
+```rust {name="hello.rs"}
 fn main() {
   println!("hello, world");
 }
@@ -47,7 +47,7 @@ fn main() {
 print("hello, world")
 ```
 
-```cs {name="hello.cs"}
+```c# {name="hello.cs"}
 class Hello {
   static void Main() {
     System.Console.WriteLine("hello, world");
@@ -71,13 +71,13 @@ object Hello {
 }
 ```
 
-```kt {name="hello.kt"}
+```kotlin {name="hello.kt"}
 fun main() {
   println("hello, world")
 }
 ```
 
-```hs {name="hello.hs"}
+```haskell {name="hello.hs"}
 main = putStrLn "hello, world"
 ```
 
@@ -87,14 +87,14 @@ main = putStrLn "hello, world"
  ?>
 ```
 
-```js {name="hello.js"}
+```javascript {name="hello.js"}
 console.log("hello, world");
 ```
 
-```py {name="hello.py"}
+```python {name="hello.py"}
 print("hello, world")
 ```
 
-```rb {name="hello.rb"}
+```ruby {name="hello.rb"}
 puts "hello, world"
 ```
