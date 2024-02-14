@@ -9,27 +9,27 @@ tags = ['programming']
 hello, world
 ```
 
-```c:hello.c
+```c {name="hello.c"}
 #include <stdio.h>
 int main(int argc, char** argv){
   printf("hello, world\n");
 }
 ```
 
-```cpp:hello.cpp
+```cpp {name="hello.cpp"}
 #include <iostream>
 int main() {
   std::cout << "hello, world" << std::endl;
 }
 ```
 
-```dart:hello.dart
+```dart {name="hello.dart"}
 void main() {
   print('Hello, World!');
 }
 ```
 
-```go:hello.go
+```go {name="hello.go"}
 package main
 import "fmt"
 func main() {
@@ -37,17 +37,17 @@ func main() {
 }
 ```
 
-```rs:hello.rs
+```rs {name="hello.rs"}
 fn main() {
   println!("hello, world");
 }
 ```
 
-```swift:hello.swift
+```swift {name="hello.swift"}
 print("hello, world")
 ```
 
-```cs:hello.cs
+```cs {name="hello.cs"}
 class Hello {
   static void Main() {
     System.Console.WriteLine("hello, world");
@@ -55,7 +55,7 @@ class Hello {
 }
 ```
 
-```java:hello.java
+```java {name="hello.java"}
 public class Hello {
   public static void main(String... args) {
     System.out.println("hello, world");
@@ -63,7 +63,7 @@ public class Hello {
 }
 ```
 
-```scala:hello.scala
+```scala {name="hello.scala"}
 object Hello {
   def main(args:Array[String]) {
     println("hello, world")
@@ -71,30 +71,30 @@ object Hello {
 }
 ```
 
-```kt:hello.kt
+```kt {name="hello.kt"}
 fun main() {
   println("hello, world")
 }
 ```
 
-```hs:hello.hs
+```hs {name="hello.hs"}
 main = putStrLn "hello, world"
 ```
 
-```php:hello.php
+```php {name="hello.php"}
 <?php
   echo "hello, world";
  ?>
 ```
 
-```js:hello.js
+```js {name="hello.js"}
 console.log("hello, world");
 ```
 
-```py:hello.py
+```py {name="hello.py"}
 print("hello, world")
 ```
 
-```rb:hello.rb
+```rb {name="hello.rb"}
 puts "hello, world"
 ```
