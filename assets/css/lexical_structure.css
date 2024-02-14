@@ -3,13 +3,6 @@
 }
 
 h1 {
-  --border-color: #42790e;
-  font-size: 2em;
-  border-left: 7px solid var(--border-color);
-  border-bottom: 1px solid var(--border-color);
-  padding-top: 3px;
-  padding-left: 5px;
-  padding-bottom: 3px;
   color: var(--text-color);
 }
 

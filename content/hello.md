@@ -1,5 +1,5 @@
 +++
-title = "Outputs"
+title = "Entry point"
 date = 2024-02-14T01:14:39+09:00
 draft = false
 tags = ['programming']
@@ -84,7 +84,7 @@ main = putStrLn "hello, world"
 ```php {name="hello.php"}
 <?php
   echo "hello, world";
- ?>
+?>
 ```
 
 ```javascript {name="hello.js"}
