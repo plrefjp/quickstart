@@ -2,6 +2,7 @@
 title = "Outputs"
 date = 2024-02-14T01:14:39+09:00
 draft = false
+tag = ['programming']
 +++
 
 ```console
