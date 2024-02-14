@@ -1,9 +1,11 @@
 {{ define "main" }}
-  <h1><ruby>
-    {{ .Param "text" }}<rp>(</rp>
-    <rt>{{ .Param "ruby" }}</rt>
-    <rp>)</rp>
-  </ruby></h1>
+  <h1>
+    <ruby>
+      {{ .Param "text" }}<rp>(</rp>
+      <rt>{{ .Param "ruby" }}</rt>
+      <rp>)</rp>
+    </ruby>
+  </h1>
 
   {{ .Content }}
   {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
