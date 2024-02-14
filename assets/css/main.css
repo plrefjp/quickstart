@@ -5,7 +5,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  position: absolute;
+  /* position: absolute; */
   background-color: #000000;
 }
 
@@ -36,6 +36,8 @@ main {
   margin-inline-start: auto;
   margin-inline-end: auto;
   max-width: 768px;
+  display: flex;
+  flex-direction: column;
 }
 
 footer {

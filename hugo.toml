@@ -24,4 +24,4 @@ weight = 30
     min = "0.116.0"
 
 [params]
-custom_css = ["css/hamburger-menu.css", "css/lexical_structure.css"]
+custom_css = ["css/hamburger-menu.css", "css/lexical_structure.css", "css/syntax.css"]
