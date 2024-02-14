@@ -6,20 +6,20 @@ tags = ['programming']
 +++
 
 ```console
-hello, world
+Hello, World!
 ```
 
 ```c {name="hello.c"}
 #include <stdio.h>
-int main(int argc, char** argv){
-  printf("hello, world\n");
+int main(void){
+  printf("Hello, World!\n");
 }
 ```
 
 ```c++ {name="hello.cpp"}
 #include <iostream>
 int main() {
-  std::cout << "hello, world" << std::endl;
+  std::cout << "Hello, World!" << std::endl;
 }
 ```
 
@@ -39,18 +39,14 @@ func main() {
 
 ```rust {name="hello.rs"}
 fn main() {
-  println!("hello, world");
+  println!("Hello, World!");
 }
-```
-
-```swift {name="hello.swift"}
-print("hello, world")
 ```
 
 ```c# {name="hello.cs"}
 class Hello {
   static void Main() {
-    System.Console.WriteLine("hello, world");
+    System.Console.WriteLine("Hello, World!");
   }
 }
 ```
@@ -58,7 +54,7 @@ class Hello {
 ```java {name="hello.java"}
 public class Hello {
   public static void main(String... args) {
-    System.out.println("hello, world");
+    System.out.println("Hello, World!");
   }
 }
 ```
@@ -66,35 +62,39 @@ public class Hello {
 ```scala {name="hello.scala"}
 object Hello {
   def main(args:Array[String]) {
-    println("hello, world")
+    println("Hello, World!")
   }
 }
 ```
 
 ```kotlin {name="hello.kt"}
 fun main() {
-  println("hello, world")
+  println("Hello, World!")
 }
 ```
 
 ```haskell {name="hello.hs"}
-main = putStrLn "hello, world"
+main = putStrLn "Hello, World!"
+```
+
+```swift {name="hello.swift"}
+print("Hello, World!")
 ```
 
 ```php {name="hello.php"}
 <?php
-  echo "hello, world";
+  echo "Hello, World!";
 ?>
 ```
 
 ```javascript {name="hello.js"}
-console.log("hello, world");
+console.log("Hello, World!");
 ```
 
 ```python {name="hello.py"}
-print("hello, world")
+print("Hello, World!")
 ```
 
 ```ruby {name="hello.rb"}
-puts "hello, world"
+puts "Hello, World!"
 ```

@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://plrefjp.github.io/quickstart/'
 languageCode = 'ja-jp'
 title = 'My New Hugo Site'
 theme = 'mytheme'
