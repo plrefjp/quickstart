@@ -1,12 +1,43 @@
 +++
-title = "プログラムの実行開始位置(Entry point)"
+title = "入口点(Entry point)"
 date = 2024-02-14T01:14:39+09:00
 draft = false
 tags = ['programming']
 +++
 
+プログラムの実行開始位置
+
 ```console
 Hello, World!
+```
+
+先頭から順に実行していく言語
+
+```shell {name="hello.sh"}
+#!/bin/sh
+echo "Hello, World!"
+```
+
+```swift {name="hello.swift"}
+print("Hello, World!")
+```
+
+```php {name="hello.php"}
+<?php
+  echo "Hello, World!";
+?>
+```
+
+```javascript {name="hello.js"}
+console.log("Hello, World!");
+```
+
+```python {name="hello.py"}
+print("Hello, World!")
+```
+
+```ruby {name="hello.rb"}
+puts "Hello, World!"
 ```
 
 `main`関数を実行開始点とする言語
@@ -55,19 +86,9 @@ fn main() {
 }
 ```
 
-オブジェクトの`main`メソッドを実行開始点とする言語
-
-```c# {name="hello.cs"}
-class Hello {
-  static void Main() {
-    System.Console.WriteLine("Hello, World!");
-  }
-}
-```
-
 ```java {name="hello.java"}
 public class Hello {
-  public static void main(String... args) {
+  public static void main(String[] args) {
     System.out.println("Hello, World!");
   }
 }
@@ -81,31 +102,12 @@ object Hello {
 }
 ```
 
-最初から順に実行していく言語
+`Main`メソッドを実行開始点とする言語
 
-```shell {name="hello.sh"}
-#!/bin/sh
-echo "Hello, World!"
-```
-
-```swift {name="hello.swift"}
-print("Hello, World!")
-```
-
-```php {name="hello.php"}
-<?php
-  echo "Hello, World!";
-?>
-```
-
-```javascript {name="hello.js"}
-console.log("Hello, World!");
-```
-
-```python {name="hello.py"}
-print("Hello, World!")
-```
-
-```ruby {name="hello.rb"}
-puts "Hello, World!"
+```c# {name="hello.cs"}
+class Hello {
+  static void Main() {
+    System.Console.WriteLine("Hello, World!");
+  }
+}
 ```
